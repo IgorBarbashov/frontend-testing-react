@@ -1,4 +1,4 @@
-##power-assert
+## power-assert
 У обычных утверждений есть мощная альтернатива: [power-assert](https://github.com/power-assert-js/power-assert). Эта библиотека добавляет магию в привычный инструмент.
 
 Вот пример проверки с использованием стандартного модуля `assert`:
