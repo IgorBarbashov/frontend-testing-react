@@ -1,0 +1,16 @@
+{
+  "name": "04_jest",
+  "version": "1.0.0",
+  "description": "Jest practice",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "author": "Igor Barbashov<bis200705@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^27.5.1"
+  }
+}
