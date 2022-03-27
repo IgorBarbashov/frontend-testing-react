@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "fast-check": "^2.14.0",
+    "jest-sorted": "^1.0.12"
+  },
+  "scripts": {
+    "test": "jest --colors"
+  },
+  "type": "module",
+  "jest": {
+    "setupFilesAfterEnv": ["jest-sorted"]
+  }
+}
