@@ -1,0 +1,45 @@
+{
+  "scripts": {
+    "test": "jest --colors "
+  },
+  "jest": {
+    "preset": "jest-puppeteer",
+    "testEnvironment": "jest-environment-puppeteer"
+  },
+  "dependencies": {
+    "axios": "*",
+    "body-parser": "*",
+    "bootstrap": "*",
+    "express": "*",
+    "lodash": "*",
+    "morgan": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-redux": "*",
+    "redux": "*",
+    "redux-actions": "*",
+    "redux-form": "*",
+    "redux-thunk": "*",
+    "reselect": "*"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "*",
+    "@babel/preset-env": "*",
+    "@babel/preset-react": "*",
+    "babel-jest": "*",
+    "babel-loader": "*",
+    "jest": "*",
+    "jest-cli": "*",
+    "msw": "*",
+    "prettier": "*",
+    "webpack": "*",
+    "webpack-cli": "*",
+    "webpack-dev-server": "*",
+    "jest-puppeteer": "*",
+    "puppeteer": "*",
+    "jest-environment-puppeteer": "*"
+  },
+  "msw": {
+    "workerDirectory": "public"
+  }
+}
