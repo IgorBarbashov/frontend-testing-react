@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "jest --colors "
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "dependencies": {
+    "core-js": "*",
+    "lodash": "*"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "*",
+    "jest": "*",
+    "webpack": "*",
+    "webpack-cli": "*",
+    "webpack-dev-server": "*"
+  }
+}
